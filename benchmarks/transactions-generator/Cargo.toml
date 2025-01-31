@@ -8,6 +8,7 @@ repository.workspace = true
 license.workspace = true
 
 [dependencies]
+near-primitives = { workspace = true, features = ["clock"] }
 
 [lints]
 workspace = true

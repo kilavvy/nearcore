@@ -5187,6 +5187,9 @@ dependencies = [
 [[package]]
 name = "near-transactions-generator"
 version = "0.0.0"
+dependencies = [
+ "near-primitives",
+]
 
 [[package]]
 name = "near-undo-block"
