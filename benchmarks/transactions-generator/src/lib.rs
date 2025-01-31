@@ -1,12 +1,18 @@
 use near_primitives::transaction::SignedTransaction;
+use tokio::time;
 
-pub struct TxGenerator {}
+pub mod account;
+
+pub struct TxGenerator {
+    pacemaker: tokio::time::Interval,
+}
 
 impl TxGenerator {
     pub async fn produce() -> SignedTransaction {
         panic!("not implemented");
     }
 }
+
 
 #[cfg(test)]
 mod tests {

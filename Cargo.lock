@@ -5188,7 +5188,12 @@ dependencies = [
 name = "near-transactions-generator"
 version = "0.0.0"
 dependencies = [
+ "anyhow",
+ "near-crypto",
  "near-primitives",
+ "serde",
+ "serde_json",
+ "tokio",
 ]
 
 [[package]]
