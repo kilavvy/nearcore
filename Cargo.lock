@@ -5191,6 +5191,7 @@ dependencies = [
  "anyhow",
  "near-crypto",
  "near-primitives",
+ "rand",
  "serde",
  "serde_json",
  "tokio",
