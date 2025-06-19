@@ -167,7 +167,7 @@
 <li>allowing user to ask for many at once</li>
 <li>allowing user to provide a bitmask of parts that are required (therefore allowing the server to return only the ones that it already cached).</li>
 </ul>
-<h3 id="better-performance-on-the-requestor-side"><a class="header" href="#better-performance-on-the-requestor-side">Better performance on the requestor side</a></h3>
+<h3 id="better-performance-on-the-requester-side"><a class="header" href="#better-performance-on-the-requester-side">Better performance on the requester side</a></h3>
 <p>Currently the parts are applied only once all of them are downloaded - instead we should try to apply them in parallel - after each part is received.</p>
 <p>When we receive a part, we should announce this information to our peers - so that they know that they can request it from us if they need it.</p>
 <h2 id="ideas---not-actively-working-on-them-yet"><a class="header" href="#ideas---not-actively-working-on-them-yet">Ideas - not actively working on them yet</a></h2>
